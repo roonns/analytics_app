@@ -11,6 +11,8 @@ import numpy as np
 
 import streamlit.components.v1 as components
 from streamlit_pandas_profiling import st_profile_report
+export STREAMLIT_SERVER_MAX_UPLOAD_SIZE=400
+
 
 #Custom components
 import sweetviz as sv
