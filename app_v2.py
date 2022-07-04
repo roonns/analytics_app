@@ -16,7 +16,7 @@ from streamlit_pandas_profiling import st_profile_report
 import sweetviz as sv
 import os
 
-st.config.set_option("server.maxUploadSize", 500)
+st.config.set_option("server.maxUploadSize", 5000)
 
 def st_display_sweetviz(report_html, width=2000, height= 1000):
     report_file = codecs.open(report_html, 'r')
